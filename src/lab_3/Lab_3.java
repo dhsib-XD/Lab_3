@@ -24,7 +24,7 @@ public class Lab_3 {
         int menu = 0;
         int max = 0;
         String l = "";
-        int a = 0; // Esta variable parece no estar en uso
+        int a = 0; 
         String cadena = "";
         String palindromo = "No"; // Se usa solo en el case 1 para la palabra más larga
         int ct = 0, c1 = 0, c2 = 0, c3 = 0, c4 = 0;
@@ -47,7 +47,7 @@ public class Lab_3 {
                 System.out.println("3...Primos: " + c3);
                 System.out.println("4...Votacion: " + c4);
                 System.out.println("El total de veces ingresadas es: " + ct);
-                break; // Salir del bucle while y terminar el programa
+                break; 
             }
 
             switch (menu) {
@@ -56,7 +56,7 @@ public class Lab_3 {
                     c1++;
                     System.out.print("Cuantas palabras desea?: ");
                     int cant = scanner.nextInt();
-                    scanner.nextLine(); // Limpiar buffer
+                    scanner.nextLine(); 
 
                     max = 0;
                     l = "";
@@ -65,7 +65,7 @@ public class Lab_3 {
                         System.out.println("Favor ingrese una cadena de caracteres:");
                         cadena = scanner.nextLine();
 
-                        // Verificar palabra más larga
+                       
                         if (cadena.length() > max) {
                             max = cadena.length();
                             l = cadena;
