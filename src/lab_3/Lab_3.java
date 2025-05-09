@@ -26,7 +26,7 @@ public class Lab_3 {
         String l = "";
         int a = 0; 
         String cadena = "";
-        String palindromo = "No"; // Se usa solo en el case 1 para la palabra más larga
+        String palindromo = "No"; //
         int ct = 0, c1 = 0, c2 = 0, c3 = 0, c4 = 0;
         String invertida = "";
 
